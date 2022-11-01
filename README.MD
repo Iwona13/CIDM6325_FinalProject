@@ -32,7 +32,7 @@
 | HTML | for front-end interactivity |
 | Search | **Best feature** to allow users to search the website |
 | Files and Images | **Best feature** to show case photographs to the users |
-| Heroku Deployment | **Better feature** to deply the website online |
+| Heroku Deployment | **Better feature** to deploy the website online |
 | RSS | an add-in **Better feature** to enable users to sign up for notification when website is updated |
 | Account Management | **Good feature** to enable users to manger their accounts |
 | Email | **Good feature** to enable users to use email to communicate or share |
