@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block title %}Blog Home{% endblock title %}
+
+{% block content %}
+
+<body class="container">
+    <div class="row">
+        {% for x in data %}
+        <div class="col-md-4">
+            <div class="thumbnail">
+                <a href="{{ x.photo.url }}">
+                    <img src="{{ x.photo.url }}" alt="Lights" style="width: 250px; height: 250px">
+                    <div class="caption">
+                        <p>{{ x.title }}</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</body>
+
+{% endblock content %}
+
+</html>
